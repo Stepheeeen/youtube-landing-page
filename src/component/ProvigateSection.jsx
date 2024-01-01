@@ -4,6 +4,9 @@ import payment from ".././assets/payment.png";
 import promotion from ".././assets/promotion.png";
 import result from ".././assets/result.png";
 import screen from ".././assets/screen.png";
+import head from ".././assets/head.png";
+import mark from ".././assets/mark.png";
+import larrow from ".././assets/larrow.png";
 
 
 const ProvigateSection = () => {
@@ -56,9 +59,38 @@ const ProvigateSection = () => {
           <img className="w-[80px] h-[90px]" src={result} alt="guy shape" />
         </div>
       </div>
-      <div className='flex justify-center items-center flex-col' >
-        <h1 className='text-center text-3xl mt-20 font-bold'>What the App look like</h1>
-        <img className="w-[900px]" src={screen} alt="guy shape" />
+      <div className="flex justify-center items-center flex-col">
+        <h1 className="text-center text-3xl mt-20 font-bold">
+          What the App look like
+        </h1>
+        <img className="w-[900px] mt-10" src={screen} alt="guy shape" />
+      </div>
+      <div className="flex flex-col justify-center items-center font-bold">
+        <img className="w-[100px] mt-10" src={head} alt="guy shape" />
+        <h1 className="text-center text-3xl mt-10 font-bold">
+          Start Earning Now
+        </h1>
+        <div className="flex gap-10 mt-5">
+          <div className="flex gap-3 items-center">
+            <img className="w-[15px] h-[15px]" src={mark} alt="guy shape" />
+            <p>Multiple Ads</p>
+          </div>
+          <div className="flex gap-3 items-center">
+            <img className="w-[15px] h-[15px]" src={mark} alt="guy shape" />
+            <p>Real Users Real Engagement</p>
+          </div>
+        </div>
+        <div className="flex gap-3 items-center mt-8">
+          <img className="w-[15px] h-[15px]" src={mark} alt="guy shape" />
+          <p className="">Earn as low as $200 per week</p>
+        </div>
+        <button className="bg-blue-500 text-white p-2 rounded-md mt-5">
+          Create An App now
+        </button>
+        <div className="flex gap-3 items-center mt-5">
+          <p className="text-blue-500">or signin to see available app</p>
+          <img className="w-[15px] h-[15px]" src={larrow} alt="guy shape" />
+        </div>
       </div>
     </div>
   );
