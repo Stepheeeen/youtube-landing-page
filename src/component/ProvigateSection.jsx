@@ -56,9 +56,9 @@ const ProvigateSection = () => {
           <img className="w-[80px] h-[90px]" src={result} alt="guy shape" />
         </div>
       </div>
-      <div className='flex justify-center flex-col' >
+      <div className='flex justify-center items-center flex-col' >
         <h1 className='text-center text-3xl mt-20 font-bold'>What the App look like</h1>
-        <img className="w-full" src={screen} alt="guy shape" />
+        <img className="w-[900px]" src={screen} alt="guy shape" />
       </div>
     </div>
   );
