@@ -7,6 +7,8 @@ import screen from ".././assets/screen.png";
 import head from ".././assets/head.png";
 import mark from ".././assets/mark.png";
 import larrow from ".././assets/larrow.png";
+import llarrow from ".././assets/llarrow.png";
+import rarrow from ".././assets/rarrow.png";
 
 
 const ProvigateSection = () => {
@@ -90,6 +92,15 @@ const ProvigateSection = () => {
         <div className="flex gap-3 items-center mt-5">
           <p className="text-blue-500">or signin to see available app</p>
           <img className="w-[15px] h-[15px]" src={larrow} alt="guy shape" />
+        </div>
+      </div>
+      <div>
+        <div className='flex justify-between p-10 mt-20 '>
+          <p className='font-bold text-2xl'>What our customers are saying</p>
+          <div className='flex gap-5'>
+            <img className="w-[50px] h-[30px] cursor-pointer" src={llarrow} alt="guy shape" />
+            <img className="w-[50px] h-[30px] cursor-pointer" src={rarrow} alt="guy shape" />
+          </div>
         </div>
       </div>
     </div>
