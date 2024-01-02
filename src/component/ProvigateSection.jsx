@@ -9,6 +9,8 @@ import mark from ".././assets/mark.png";
 import larrow from ".././assets/larrow.png";
 import llarrow from ".././assets/llarrow.png";
 import rarrow from ".././assets/rarrow.png";
+import profile1 from ".././assets/profie1.png";
+import profile2 from ".././assets/profile2.png";
 
 
 const ProvigateSection = () => {
@@ -62,7 +64,7 @@ const ProvigateSection = () => {
         </div>
       </div>
       <div className="flex justify-center items-center flex-col">
-        <h1 className="text-center text-3xl mt-20 font-bold">
+        <h1 className="text-center text-3xl mt-20 font-bold text-[#5C5C5C]">
           What the App look like
         </h1>
         <img className="w-[900px] mt-10" src={screen} alt="guy shape" />
@@ -95,11 +97,57 @@ const ProvigateSection = () => {
         </div>
       </div>
       <div>
-        <div className='flex justify-between p-10 mt-20 '>
-          <p className='font-bold text-2xl'>What our customers are saying</p>
-          <div className='flex gap-5'>
-            <img className="w-[50px] h-[30px] cursor-pointer" src={llarrow} alt="guy shape" />
-            <img className="w-[50px] h-[30px] cursor-pointer" src={rarrow} alt="guy shape" />
+        <div className="flex justify-between p-10 mt-20 ">
+          <p className="font-bold text-2xl">What our customers are saying</p>
+          <div className="flex gap-5">
+            <img
+              className="w-[50px] h-[30px] cursor-pointer"
+              src={llarrow}
+              alt="guy shape"
+            />
+            <img
+              className="w-[50px] h-[30px] cursor-pointer"
+              src={rarrow}
+              alt="guy shape"
+            />
+          </div>
+        </div>
+        <div className="flex justify-between p-10">
+          <div className="w-[500px]">
+            <h1 className="font-bold text-xl">
+              Help us improve our productivity
+            </h1>
+            <p className="mt-5 text-[#5C5C5C]">
+              The long barrow was built on land previously inhabited in the
+              Mesolithic period. It consisted of a sub-rectangular earthen
+              tumulus, estimated to have been 15 metres (50 feet) in length,
+              with a chamber built from sarsen.
+            </p>
+            <div className="flex gap-3 mt-5">
+              <img className=" cursor-pointer" src={profile1} alt="guy shape" />
+              <div>
+                <h1 className="font-bold">Kristin Watson</h1>
+                <p>CEO, Rome</p>
+              </div>
+            </div>
+          </div>
+          <div className="w-[500px]">
+            <h1 className="font-bold text-xl">
+              Manage project much better with this tool
+            </h1>
+            <p className="mt-5 text-[#5C5C5C]">
+              The long barrow was built on land previously inhabited in the
+              Mesolithic period. It consisted of a sub-rectangular earthen
+              tumulus, estimated to have been 15 metres (50 feet) in length,
+              with a chamber built from sarsen.
+            </p>
+            <div className="flex gap-3 mt-5">
+              <img className=" cursor-pointer" src={profile2} alt="guy shape" />
+              <div>
+                <h1 className="font-bold">Guy Hawkins</h1>
+                <p>CEO, Rome</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

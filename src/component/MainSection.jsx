@@ -4,7 +4,7 @@ import guy from ".././assets/guy.png";
 
 const MainSection = () => {
   return (
-    <div className="flex justify-center items-center bg-blue-100">
+    <div className="flex justify-center items-center bg-blue-50">
       <div className="">
         <h1 className="bg-blue-500 text-white text-[20px] w-fit p-2 rounded-md">
           Google Partner

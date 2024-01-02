@@ -5,6 +5,8 @@ import Navbar from './component/Navbar'
 import Ratings from './component/Ratings'
 import GooglePartnerSection from './component/GooglePartnerSection'
 import ProvigateSection from './component/ProvigateSection'
+import AdvantageSection from './component/AdvantageSection'
+import Footer from './component/Footer'
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
       <Ratings />
       <GooglePartnerSection />
       <ProvigateSection />
+      <AdvantageSection />
+      <Footer />
     </h1>
    </div>
   )
