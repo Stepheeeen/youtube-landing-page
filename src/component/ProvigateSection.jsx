@@ -16,7 +16,10 @@ import profile2 from ".././assets/profile2.png";
 const ProvigateSection = () => {
   return (
     <div>
-      <div className="grid grid-cols-2 gap-20 place-items-center">
+      <h1 className="text-3xl text-center font-bold text-[#252525]">
+        How Ads Community Work
+      </h1>
+      <div className="grid grid-cols-2 gap-20 mt-20 place-items-center">
         <div className="flex gap-5">
           <div>
             <h1 className="text-2xl font-bold">Setup</h1>

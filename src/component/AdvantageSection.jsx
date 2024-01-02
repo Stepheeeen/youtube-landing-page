@@ -43,7 +43,7 @@ const AdvantageSection = () => {
         <h1 className="text-3xl mt-20 font-bold text-center text-[#5C5C5C]">
           Do you have further questions?
         </h1>
-        <p className="text-[#000000] font-bold mt-5">
+        <p className="text-[#000000] font-bold mt-10">
           Please contact us via{" "}
           <span className="text-[#1090CB]">Live Chat</span>{" "}
         </p>
