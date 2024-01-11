@@ -24,7 +24,7 @@ const MainSection = () => {
             placeholder="Enter your email"
           />
           <button className="bg-blue-500 rounded-md my-1 mr-1 text-white">
-            <p className="p-2">Start your youtube version</p>
+            <p className="p-2">Get Started</p>
           </button>
         </div>
       </div>

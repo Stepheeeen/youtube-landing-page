@@ -1,5 +1,8 @@
-import React from 'react'
+import React from "react";
 import mark from ".././assets/markavather.png";
+import efficient from ".././assets/efficiency.png";
+import comfy from ".././assets/convinient.png";
+
 
 const AdvantageSection = () => {
   return (
@@ -19,23 +22,21 @@ const AdvantageSection = () => {
           </p>
         </div>
         <div className="w-[300px] flex items-center flex-col">
-          <img className=" cursor-pointer" src={mark} alt="guy shape" />
-          <h1 className="font-bold mt-3">Reliability</h1>
+          <img className=" cursor-pointer" src={efficient} alt="guy shape" />
+          <h1 className="font-bold mt-3">Efficiency</h1>
           <p className="text-[#5C5C5C] text-center mt-1">
-            Prodvigate is an official Google partner. We work only with YouTube
-            Ads and well-known payment systems. Your channel and your money are
-            always safe with us. You can cancel or pause your campaign at any
-            time
+            Our algorithms optimize your channel`s promotion in real time. This
+            means your ad budget will be spent more efficiently. At the same
+            time you can always ask us for further help or advice
           </p>
         </div>
         <div className="w-[300px] flex items-center flex-col">
-          <img className=" cursor-pointer" src={mark} alt="guy shape" />
-          <h1 className="font-bold mt-3">Reliability</h1>
+          <img className=" cursor-pointer" src={comfy} alt="guy shape" />
+          <h1 className="font-bold mt-3">Convenience</h1>
           <p className="text-[#5C5C5C] text-center mt-1">
-            Prodvigate is an official Google partner. We work only with YouTube
-            Ads and well-known payment systems. Your channel and your money are
-            always safe with us. You can cancel or pause your campaign at any
-            time
+            We have made things as simple as possible. Keep creating your
+            awesome content and don't waste your time with setting up your
+            promotion. We will do it for you!
           </p>
         </div>
       </div>
@@ -55,6 +56,6 @@ const AdvantageSection = () => {
       </div>
     </div>
   );
-}
+};
 
-export default AdvantageSection
+export default AdvantageSection;

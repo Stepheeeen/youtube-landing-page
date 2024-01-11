@@ -22,7 +22,7 @@ const ProvigateSection = () => {
       <div className="grid grid-cols-2 gap-20 mt-20 place-items-center">
         <div className="flex gap-5">
           <div>
-            <h1 className="text-2xl font-bold">Setup</h1>
+            <h1 className="text-2xl font-bold"><span className='text-xl text-white font-bold bg-[#d9d9d9] rounded-full p-1 px-3 mr-[8px]'>1</span>Setup</h1>
             <p className="mt-2">
               Add an Existing App URl or Request for a App to be
               <br /> created for you.
@@ -33,7 +33,7 @@ const ProvigateSection = () => {
         </div>
         <div className="flex gap-5">
           <div>
-            <h1 className="text-2xl font-bold">Payments</h1>
+            <h1 className="text-2xl font-bold"><span className='text-xl text-white font-bold bg-[#d9d9d9] rounded-full p-1 px-3 mr-[8px]'>2</span>Payments</h1>
             <p className="mt-2">
               After your App is approved. Topup your account.
             </p>
@@ -43,7 +43,7 @@ const ProvigateSection = () => {
         </div>
         <div className="flex gap-5">
           <div>
-            <h1 className="text-2xl font-bold">Promotion</h1>
+            <h1 className="text-2xl font-bold"><span className='text-xl text-white font-bold bg-[#d9d9d9] rounded-full p-1 px-3 mr-[8px]'>3</span>Promotion</h1>
             <p className="mt-2">
               The channel promotion starts on YouTube. Your
               <br /> videos will be shown to your chosen audience and
@@ -56,7 +56,7 @@ const ProvigateSection = () => {
         </div>
         <div className="flex gap-5">
           <div>
-            <h1 className="text-2xl font-bold">Results</h1>
+            <h1 className="text-2xl font-bold"><span className='text-xl text-white font-bold bg-[#d9d9d9] rounded-full p-1 px-3 mr-[8px]'>4</span>Results</h1>
             <p className="mt-2">
               Due to the right targeting, you receive views, new
               <br /> subscribers, likes and comments
